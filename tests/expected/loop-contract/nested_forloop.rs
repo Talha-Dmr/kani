@@ -1,7 +1,7 @@
 // Copyright Kani Contributors
 // SPDX-License-Identifier: Apache-2.0 OR MIT
 
-// kani-flags: -Z loop-contracts -Z mem-predicates -Z quantifiers
+// kani-flags: -Z loop-contracts -Z mem-predicates -Z quantifiers -Z unstable-options --cbmc-args --object-bits 8
 
 //! Check for-loop invariant for simple nested for-loop.
 #![feature(proc_macro_hygiene)]

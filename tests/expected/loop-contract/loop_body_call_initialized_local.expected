@@ -1,0 +1,10 @@
+Checking harness call_with_side_effect...
+VERIFICATION:- SUCCESSFUL
+
+Checking harness binary_search_with_modifies...
+VERIFICATION:- SUCCESSFUL
+
+Checking harness binary_search...
+VERIFICATION:- SUCCESSFUL
+
+Complete - 3 successfully verified harnesses, 0 failures, 3 total.

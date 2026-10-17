@@ -1,0 +1,35 @@
+ ** 1 of\
+Failed Checks: Check invariant before entry for loop head_copy_side_effect.0\
+in head_copy_side_effect\
+\
+VERIFICATION:- FAILED
+
+ ** 1 of\
+Failed Checks: assertion failed: k < 4\
+in head_copy_assume_prunes\
+\
+VERIFICATION:- FAILED
+
+ ** 0 of\
+\
+VERIFICATION:- FAILED (encountered no panics, but at least one was expected)
+
+ ** 1 of\
+Failed Checks: Check invariant after step for loop nested_for_dependent_range.0\
+in nested_for_dependent_range\
+\
+VERIFICATION:- FAILED
+
+ ** 1 of\
+Failed Checks: Check invariant after step for loop nested_for_range_written_through_reference.0\
+in nested_for_range_written_through_reference\
+\
+VERIFICATION:- FAILED
+
+ ** 1 of\
+Failed Checks: assertion failed: k < 4\
+in nested_for_iterator_assume\
+\
+VERIFICATION:- FAILED
+
+Complete - 0 successfully verified harnesses, 6 failures, 6 total.
